@@ -35,6 +35,7 @@ f3 = im2double(rgb2gray(imread('hike_00027.jpg')));
 % bio-inspired motion perception model
 olcompution;
 cbcompution;
+
 % save and show the results
     figure;imshow(fn);
 for i = 1:size(rects, 1)
